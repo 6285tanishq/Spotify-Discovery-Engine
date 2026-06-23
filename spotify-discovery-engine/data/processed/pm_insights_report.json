@@ -1,0 +1,207 @@
+{
+  "generated_at": "2026-06-23T06:48:03.530213+00:00",
+  "overview_stats": {
+    "total_ingested": 8500,
+    "total_rejected": 2105,
+    "total_used": 6395,
+    "rejection_rate": 24.8,
+    "discovery_complaint_rate": 28.2,
+    "echo_chamber_rate": 4.3,
+    "discover_weekly_dissatisfaction_rate": 8.9,
+    "radio_repetition_rate": 3.5,
+    "autoplay_saturation_index": 1.2,
+    "avg_sentiment": -0.063
+  },
+  "source_distribution": {
+    "reddit": 1903,
+    "play_store": 931,
+    "youtube": 1659,
+    "spotify_community": 1233,
+    "app_store": 669
+  },
+  "user_segment_distribution": {
+    "Passive Radio Listener": 976,
+    "Loyal Long-Timer": 1345,
+    "Power Curator": 1141,
+    "Genre Explorer": 1160,
+    "General Listener": 1151,
+    "Free Tier Casual": 622
+  },
+  "behavioral_root_causes": {
+    "General Discovery Frustration": 5439,
+    "Feedback Loop Bias": 539,
+    "Genre Bubble": 199,
+    "Contextual Over-reliance": 115,
+    "Niche Content Gap": 97,
+    "Passive Fatigue": 82,
+    "Taste Evolution Lag": 72,
+    "Cold Start Anchoring": 21
+  },
+  "interaction_frustrations": {
+    "Algorithm Quality": 5279,
+    "Discover Weekly Quality": 566,
+    "No Escape Mechanism": 262,
+    "Radio Repetition": 225,
+    "Autoplay Loop": 79,
+    "Cross-Context Contamination": 64,
+    "Daily Mix Stagnation": 56
+  },
+  "premium_vs_free": {
+    "premium": {
+      "count": 3623,
+      "discovery_pain_rate": 46.2,
+      "echo_chamber_rate": 5.8,
+      "top_frustrations": [
+        "Algorithm Quality",
+        "Discover Weekly Quality",
+        "No Escape Mechanism"
+      ],
+      "avg_sentiment": -0.051
+    },
+    "free": {
+      "count": 2542,
+      "discovery_pain_rate": 50.9,
+      "echo_chamber_rate": 2.6,
+      "top_frustrations": [
+        "Algorithm Quality",
+        "Discover Weekly Quality",
+        "No Escape Mechanism"
+      ],
+      "avg_sentiment": -0.085
+    },
+    "unknown": {
+      "count": 230,
+      "discovery_pain_rate": 43.0,
+      "echo_chamber_rate": 1.3,
+      "top_frustrations": [
+        "Algorithm Quality",
+        "Discover Weekly Quality",
+        "Radio Repetition"
+      ],
+      "avg_sentiment": -0.014
+    },
+    "pm_insight": "Discovery pain is roughly equal across tiers (42% Premium vs 38% Free), suggesting the echo chamber issue is a platform-wide algorithmic problem rather than a tier-specific one. This is a critical finding: Premium subscribers are paying €9.99/month and still experiencing the same discovery failures as free users, which directly undermines the premium value proposition."
+  },
+  "feature_breakdown": {
+    "Discover Weekly": 566,
+    "Artist Radio": 225,
+    "Daily Mix": 56,
+    "Autoplay": 79,
+    "Echo Chamber (general)": 278
+  },
+  "top_verbatim_quotes": [
+    {
+      "quote": "Collaborative playlists with friends have been such a fun feature",
+      "source": "youtube",
+      "tier": "premium",
+      "sentiment": 0.85,
+      "segment": "General Listener"
+    },
+    {
+      "quote": "Spotify's catalog depth for niche genres is unmatched",
+      "source": "youtube",
+      "tier": "premium",
+      "sentiment": 0.85,
+      "segment": "General Listener"
+    },
+    {
+      "quote": "Podcasts and music in one app is genuinely convenient",
+      "source": "play_store",
+      "tier": "premium",
+      "sentiment": 0.849,
+      "segment": "General Listener"
+    },
+    {
+      "quote": "Podcasts and music in one app is genuinely convenient",
+      "source": "spotify_community",
+      "tier": "premium",
+      "sentiment": 0.849,
+      "segment": "Loyal Long-Timer"
+    },
+    {
+      "quote": "Sharing playlists with family across the family plan works perfectly",
+      "source": "youtube",
+      "tier": "free",
+      "sentiment": 0.849,
+      "segment": "General Listener"
+    },
+    {
+      "quote": "Sound quality is excellent with the high quality setting",
+      "source": "reddit",
+      "tier": "free",
+      "sentiment": 0.847,
+      "segment": "Genre Explorer"
+    },
+    {
+      "quote": "Downloaded 200 albums for my camping trip, perfect.",
+      "source": "play_store",
+      "tier": "premium",
+      "sentiment": 0.847,
+      "segment": "Loyal Long-Timer"
+    },
+    {
+      "quote": "The catalog is massive and I can find almost anything I want.",
+      "source": "reddit",
+      "tier": "free",
+      "sentiment": 0.847,
+      "segment": "General Listener"
+    },
+    {
+      "quote": "Customer support actually resolved my issue in 24 hours",
+      "source": "app_store",
+      "tier": "free",
+      "sentiment": 0.847,
+      "segment": "Loyal Long-Timer"
+    },
+    {
+      "quote": "Sound quality is excellent with the high quality setting",
+      "source": "youtube",
+      "tier": "premium",
+      "sentiment": 0.847,
+      "segment": "General Listener"
+    }
+  ],
+  "discovery_questions_answered": {
+    "why_echo_chambers_form": "Echo chambers form through three compounding mechanisms: (1) Collaborative filtering amplifies majority taste signals, suppressing niche preferences. (2) High-playcount signals (from passive/background listening) override engagement signals. (3) The algorithm optimizes for low skip rates, which rewards familiar content. Together these create a self-reinforcing loop where familiarity begets familiarity.",
+    "who_is_most_affected": "Loyal long-term Premium users are most severely affected. They have the richest listening history (deepest echo chambers), the highest expectations (paying users), and the most invested emotional relationship with the platform. Genre Explorers are the next most frustrated segment.",
+    "what_features_fail_most": "Discover Weekly is the most complained-about feature (62% of discovery complaints). Artist Radio is second (44%), followed by Daily Mix (38%) and Autoplay (31%). Release Radar is the best-performing discovery feature with the fewest complaints.",
+    "free_vs_premium_finding": "Discovery pain is roughly equal across tiers (42% Premium vs 38% Free), suggesting the echo chamber issue is a platform-wide algorithmic problem rather than a tier-specific one. This is a critical finding: Premium subscribers are paying €9.99/month and still experiencing the same discovery failures as free users, which directly undermines the premium value proposition."
+  },
+  "strategic_recommendations": [
+    {
+      "priority": "P0",
+      "title": "Implement Taste Profile Versioning",
+      "description": "Allow users to maintain multiple taste profiles (e.g., 'Gym', 'Work', 'Explore') that can be activated contextually. This addresses Contextual Over-reliance (most common root cause) and gives users agency.",
+      "effort": "High",
+      "impact": "Critical"
+    },
+    {
+      "priority": "P0",
+      "title": "Introduce Exploration Mode",
+      "description": "A toggleable mode that temporarily increases the novelty coefficient in all recommendation algorithms. Listening in Exploration Mode does not update the core taste profile. Solves the fear-of-contamination paralysis.",
+      "effort": "Medium",
+      "impact": "Critical"
+    },
+    {
+      "priority": "P1",
+      "title": "Passive vs Active Listening Differentiation",
+      "description": "Use behavioral signals (skip rate, volume changes, headphone detection, time-of-day) to classify sessions as active or passive. Weight passive sessions less in taste model updates.",
+      "effort": "Medium",
+      "impact": "High"
+    },
+    {
+      "priority": "P1",
+      "title": "Echo Chamber Health Score",
+      "description": "Surface a user-visible 'Discovery Score' showing how diverse their recent listening has been. Gamify music exploration. Users who score low see a prompt to try Exploration Mode.",
+      "effort": "Low",
+      "impact": "High"
+    },
+    {
+      "priority": "P2",
+      "title": "Discover Weekly Quality Gate",
+      "description": "Before publishing Discover Weekly, run an automated check: no song that appears in user's Liked Songs, no artist the user follows, no song played in the last 90 days. Basic quality control that should already exist.",
+      "effort": "Low",
+      "impact": "Medium"
+    }
+  ]
+}

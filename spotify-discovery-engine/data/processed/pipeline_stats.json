@@ -1,0 +1,12 @@
+{
+  "total_ingested": 8500,
+  "total_rejected": 2105,
+  "total_used": 6395,
+  "rejection_rate": 24.8,
+  "discovery_complaint_rate": 28.2,
+  "echo_chamber_rate": 4.3,
+  "discover_weekly_dissatisfaction_rate": 8.9,
+  "radio_repetition_rate": 3.5,
+  "autoplay_saturation_index": 1.2,
+  "avg_sentiment": -0.063
+}

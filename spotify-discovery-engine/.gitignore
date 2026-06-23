@@ -1,7 +1,3 @@
-# Generated data — regenerated automatically on first run
-data/raw/all_reviews.csv
-data/processed/
-
 # Python
 __pycache__/
 *.py[cod]

@@ -1213,7 +1213,7 @@ def render_data_explorer(records: list[dict], stats: dict):
             display_cols = ["Source", "Subscription", "Segment", "Sentiment", "Echo Chamber", "DW Complaint", "Root Cause", "Title", "Text Preview"]
             available_cols = [c for c in display_cols if c in filtered_df.columns]
 
-            styled_df = filtered_df[available_cols].style.applymap(
+            styled_df = filtered_df[available_cols].style.map(
                 color_sentiment, subset=["Sentiment"] if "Sentiment" in available_cols else []
             ).format({"Sentiment": "{:+.3f}"})
 
